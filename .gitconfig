@@ -1,0 +1,10 @@
+[user]
+	email = grayson@inspry.com
+	name = Grayson Gantek
+[core]
+	editor = nano
+[init]
+	defaultBranch = main
+[pull]
+	merge = true
+	rebase = false
