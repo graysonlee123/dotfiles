@@ -1,0 +1,40 @@
+[global]
+  follow = mouse
+
+  geometry = "400x10-24+56"
+  padding = 8
+  horizontal_padding = 8
+
+  frame_width = 8
+  frame_color = "#fbf1c7" # Gruvbox light - bg (0)
+  corner_radius = 8
+
+  separator_color = frame
+  separator_height = 8
+
+  font = Gohu Font 12
+  format = "<b>%s</b>\n%b\n\n(from %a)"
+  word_wrap = true
+
+  stack_duplicates = false
+
+  mouse_left_click = do_action, close_current
+  mouse_middle_click = close_current
+
+[shortcuts]
+  history = ctrl+grave
+
+[urgency_low]
+  background = "#076678" # Gruvbox light - blue (12)
+  foreground = "#fbf1c7" # Gruvbox light - bg (0)
+  timeout = 0
+
+[urgency_normal]
+  background = "#427b58" # Gruvbox light - aqua (14)
+  foreground = "#fbf1c7" # Gruvbox light - bg (0)
+  timeout = 0
+
+[urgency_critical]
+  background = "#af3a03" # Gruvbox light - organe (130)
+  foreground = "#fbf1c7" # Gruvbox light - bg (0)
+  timeout = 0
