@@ -38,3 +38,7 @@
   background = "#af3a03" # Gruvbox light - organe (130)
   foreground = "#fbf1c7" # Gruvbox light - bg (0)
   timeout = 0
+
+[play-sound]
+  summary = "*"
+  script = "~/.config/dunst/play-sound.sh"
