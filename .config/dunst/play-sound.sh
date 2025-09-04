@@ -3,11 +3,27 @@
 # Notification's app name, passed in by Dunst
 appname=$1
 
+# Blacklist applications from playing sounds
+blacklist=("FileZilla")
+
+# Play function
 function play () {
   /usr/bin/paplay /home/inspry/.config/dunst/caw.ogg
 }
 
-if [[ "$appname" != "FileZilla" ]]; then
+# Determine if argument is blacklisted
+
+blacklisted=false
+
+for item in "${blacklist[@]}"; do
+  if [[ "$item" == "$appname" ]]; then
+    blacklisted=true
+    break
+  fi
+done
+
+# Play sound if not blacklisted
+if [[ "$blacklisted" == false ]]; then
   play
 fi
 
