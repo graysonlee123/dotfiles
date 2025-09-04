@@ -39,6 +39,10 @@
   foreground = "#fbf1c7" # Gruvbox light - bg (0)
   timeout = 0
 
+[filezilla]
+  appname = "FileZilla"
+  timeout = 3 
+
 [play-sound]
   summary = "*"
   script = "~/.config/dunst/play-sound.sh"
