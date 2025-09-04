@@ -136,7 +136,6 @@ export PATH="$PATH:/home/inspry/.local/bin"
 
 # Pulumi
 export PULUMI_CONFIG_PASSPHRASE=ql7OZX068uM1
-export PATH=$PATH:/home/inspry/.pulumi/bin
 
 # Yazi
 export EDITOR=nvim
