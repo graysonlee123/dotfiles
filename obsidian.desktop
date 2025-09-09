@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Obsidian
+GenericName=Notes
+Comment=Markdown-like, local-first, note taking application.
+# Icon=
+Exec=obsidian
+Path=/home/inspry
+Terminal=false
+Categories=Utility;Documentation
+
+MimeType=x-scheme-handler/obsidian;
