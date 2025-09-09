@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=PhpStorm
+# Icon=
+GenericName=PHP IDE
+Exec=phpstorm
+Path=/home/inspry
+Terminal=false
+Categories=Development;IDE;WebDevelopment;TextEditor
+
