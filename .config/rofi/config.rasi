@@ -1,15 +1,15 @@
 configuration {
 	modi: "drun,run";
+  display-drun: "Applications";
+  drun-display-format: "{icon} {name}";
+  show-icons: true;
+  display-run: "Commands";
   font: "Gohu Font 12";
 	sidebar-mode: true;
 	matching: "fuzzy";
   timeout {
       action: "kb-cancel";
       delay:  0;
-  }
-  filebrowser {
-      directories-first: true;
-      sorting-method:    "name";
   }
 }
 
