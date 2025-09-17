@@ -4,7 +4,7 @@
 appname=$1
 
 # Blacklist applications from playing sounds
-blacklist=("FileZilla")
+blacklist=("FileZilla", "flameshot")
 
 # Play function
 function play () {

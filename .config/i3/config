@@ -55,7 +55,10 @@ bindsym $mod+Return exec wezterm
 bindsym $mod+Shift+q kill
 
 # Rofi
-bindsym $mod+d exec "rofi -modi 'drun,run' -show drun" 
+bindsym $mod+d exec "rofi -modi 'drun,run' -show drun"
+
+# Flameshot
+bindsym Print exec "flameshot gui"
 
 # change focus
 bindsym $mod+j focus left
