@@ -178,12 +178,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Monitors
-
-exec --no-startup-id xrandr --output DP-3 --rotate right --pos 0x0 \
-       --output DP-0 --rate 165.00 --primary --pos 1080x0 \
-       --output DP-5 --pos 3640x0
-
 # Colors
 
 set $color-red #cc241d
@@ -230,9 +224,7 @@ client.focused_inactive $color-bg $color-bg $color-fg $color-bg $color-bg
 
 # Workspaces
 
-workspace $ws1 output DP-3
-workspace $ws2 output DP-0
-workspace $ws3 output DP-5
+workspace $ws1 output DP-0
 
 # Scripts
 
