@@ -238,5 +238,5 @@ exec_always --no-startup-id $HOME/.config/picom/launch.sh
 exec xinput --set-prop 9 "libinput Accel Profile Enabled" 0, 1
 exec xinput --set-prop 9 "libinput Accel Speed" 0
 exec --no-startup-id /usr/bin/xset r rate 200 50
-exec --no-startup-id /usr/bin/xset s 3600
-exec --no-startup-id /usr/bin/xset dpms 7200 7200 7200
+exec --no-startup-id /usr/bin/xset s off
+exec --no-startup-id /usr/bin/xset -dpms
