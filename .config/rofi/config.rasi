@@ -3,6 +3,7 @@ configuration {
   display-drun: "Applications";
   drun-display-format: "{icon} {name}";
   show-icons: true;
+  icon-theme: "Papirus";
   display-run: "Commands";
   font: "Gohu Font 12";
 	sidebar-mode: true;

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=PhpStorm
-# Icon=
+Icon=phpstorm
 GenericName=PHP IDE
 Exec=phpstorm
 Path=/home/inspry
