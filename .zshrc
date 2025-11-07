@@ -134,6 +134,9 @@ alias pn=pnpm
 # Add ~/.local/bin to path
 export PATH="$PATH:/home/inspry/.local/bin"
 
+# Add recommended Go installation directory to path
+export PATH="$PATH:/usr/local/go/bin"
+
 # Pulumi
 export PULUMI_CONFIG_PASSPHRASE=ql7OZX068uM1
 
