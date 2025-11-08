@@ -2,7 +2,7 @@ local wezterm = require 'wezterm'
 local config = {}
 
 -- Font
-config.font_size = 16
+config.font_size = 14
 config.font = wezterm.font 'Gohu Font'
 
 -- Colors
