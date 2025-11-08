@@ -217,6 +217,8 @@ set $color-fg4 #7c6f64
 # Windows
 
 title_align center
+for_window [all] title_format "<b>%title</b> [%class, %instance]"
+for_window [all] title_window_icon padding 8
 default_border normal 4
 gaps inner 24px
 
